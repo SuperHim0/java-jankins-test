@@ -12,6 +12,7 @@ public class Main{
         numbers.add(3);
         numbers.add(422);
         numbers.add(56);
+        System.out.println("Numbers: " + numbers);
 
         List<Integer> list= numbers.stream().filter(e -> e > 50).collect(Collectors.toList());
         System.out.println("Numbers greater than 50: " + list);
