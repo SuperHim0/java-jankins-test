@@ -18,5 +18,12 @@ public class Main{
         System.out.println("Numbers greater than 50: " + list);
         System.out.println("using java 8 stream API to filter numbers.");
 
+        List<String> names = new ArrayList<>();
+        names.add("Alice");
+        names.add("Bob");
+        names.add("Charlie");
+        names.add("David");
+        System.out.println("Names: " + names);
+
     }
 }
